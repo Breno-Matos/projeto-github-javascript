@@ -1,0 +1,31 @@
+.container .profile-data .events{
+  background-color: #F2F2F2;
+  width: 100%;
+  padding: 100px;
+  
+}
+
+.container .profile-data .events ul{
+  width: 100%;
+}
+
+.container .profile-data .events h2{
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.container .profile-data .events li{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.container .profile-data .events li p{
+  font-size: 16px;
+}
+
+.container .profile-data .events li .event-header{
+  font-weight: bold;
+}
