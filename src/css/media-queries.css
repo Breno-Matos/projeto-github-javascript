@@ -1,0 +1,78 @@
+@media (max-width: 1280px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  .container header {
+    width: 100%;
+  }
+
+  .container header h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+@media (max-width: 861px) {
+  .container .profile-data .info{
+    flex-direction: column;
+  }
+  .container .profile-data .info img{
+    margin-bottom: 20px;
+  }
+  .container .profile-data .info img,
+  .container .profile-data .info .data
+  {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  .container header #input-search,
+  .container header #btn-search
+  {
+    width: 100%;
+  }
+  .container .profile-data .info .datafollow{
+    width: 1200px;
+  }
+
+    .events li {
+    gap: 0.25rem;
+  }
+
+  .events h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  main {
+    padding: 15% 0;    
+  }
+
+  .container .profile-data .info{
+    width: 90%;
+  }
+
+  .container .profile-data .info img{
+    margin-bottom: 20px;
+  }
+
+  .container .profile-data .info img,
+  .container .profile-data .info .data
+  {
+    width: 100%;
+    padding: 0;
+  }
+
+  .container .profile-data .info .datafollow{
+    margin:0px auto;
+    width: 80%;
+  }
+  .container .profile-data .info .datafollow .followers{
+    font-size: 12px;
+    padding: 2px;
+  }
+}
