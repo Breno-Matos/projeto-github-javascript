@@ -21,6 +21,10 @@
   border-bottom: 1px solid #ddd;
 }
 
+.container .profile-data .events li:last-child{
+  border-bottom: none;
+}
+
 .container .profile-data .events li .event-header{
   font-weight: bold;
 }
