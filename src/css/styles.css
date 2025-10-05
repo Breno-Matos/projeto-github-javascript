@@ -21,7 +21,7 @@ main {
   display: flex;  
   justify-content: center;
   flex-direction: column;
-  padding: 50px 0 0;      
+  padding: 50px 0 0;    
 }
 
 .devicon-github-original{
@@ -106,7 +106,8 @@ main {
 .container .profile-data .info img{
   width: 50%;
   border-radius: 50%;
-  border: 10px solid hotpink;
+  border: 10px solid #FFFFFF;
+  outline: 10px solid hotpink;
 }
 
 .container .profile-data .info h1{
@@ -134,4 +135,10 @@ main {
   padding: 4px;
   border: 1px solid gray;
   border-radius: 10%;  
+}
+
+.rodape{
+  /* position: absolute; */
+  bottom: 0;
+  left: 45%;
 }
